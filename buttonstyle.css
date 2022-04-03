@@ -1,0 +1,39 @@
+body {
+text-align: center;
+}
+
+#displayNum  {
+    font-size: 40px;
+    border: 1px black;
+    }
+
+#plus {
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+  background-color: green;
+  font-size:x-large;
+}
+
+#minus {
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+  background-color: red;
+  font-size: x-large;
+  margin-left: 20px;
+}
+
+#result {
+    align-self: center;
+    text-align: center;
+  font-size: 60px;
+}
+
+#inputthing {
+    max-width: 50px;
+}
+
+#limitthing {
+    max-width: 50px;
+}

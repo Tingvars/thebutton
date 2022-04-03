@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="buttonstyle.css" />
+</head>
+
+<body>
+
+        <p id="displayNum">0</p>
+        <div class="buttonContainer">
+            <button id="plus" onclick="changeNum(id)">+</button>
+            <button id="minus" onclick="changeNum(id)">-</button>
+        </div>
+        <div class="outputWrapper">
+            <p id="result"></p>
+        </div>
+
+    <div>
+        <p>Change input num:</p>
+    <input
+    type="number"
+    value=5
+    id="inputthing"
+    onclick="changeInputNum()"
+  /> 
+</div>
+
+<div>
+    <p>Change limit num:</p>
+<input
+type="number"
+value=35
+id="limitthing"
+onclick="changeLimitNum()"
+/> 
+</div>
+
+  <script src="buttonscript.js"></script>
+</body>
+
+</html>
